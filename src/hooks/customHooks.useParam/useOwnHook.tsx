@@ -3,7 +3,7 @@ import { getUserData } from "../../api/DataService";
 import { useParamHook } from "./useParamHook";
 
 export function HelloFunction() {
-  const [userName, setUserName] = useState();
+  const [userName, setUserName] = useState<string|null>(null);
   const id = useParamHook("id");
 
   useEffect(() => {
