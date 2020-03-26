@@ -1,6 +1,6 @@
 {
   "include": [
-    "./src/*"
+    "./src/*", "src/hooks/customHooks.useParam", "src/hooks/HelloClassFunction", "src/hooks/useCallback", "src/hooks/memo", "src/hooks/useState", "src/hooks/useEffect", "src/hooks/useLayoutEffect", "src/hooks/useEffectReturn"
   ],
   "compilerOptions": {
     "strict": true,

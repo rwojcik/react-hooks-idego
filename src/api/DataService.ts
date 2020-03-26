@@ -1,3 +1,4 @@
-export const getUserData = async () => {
-  return 'Rafał';
-}
+export const getUserData = async (id?: number | string) => {
+  console.log(id);
+  return "Rafał";
+};

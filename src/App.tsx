@@ -1,6 +1,6 @@
 import * as React from "react";
-import { Flicker } from "./useLayoutEffect/Flicker";
-import { NoFlicker } from "./useLayoutEffect/NoFlicker";
+import { Flicker } from "./hooks/useLayoutEffect/Flicker";
+import { NoFlicker } from "./hooks/useLayoutEffect/NoFlicker";
 
 export default function App() {
   return (

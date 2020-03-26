@@ -1,5 +1,5 @@
 import React from "react";
-import { getUserData } from "../api/DataService";
+import { getUserData } from "../../api/DataService";
 
 export class HelloClass extends React.Component {
   state = { userName: null };
